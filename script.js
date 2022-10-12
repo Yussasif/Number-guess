@@ -31,6 +31,10 @@ else if(guess === secretNumber){
 
     document.querySelector('.number').style.width = '30rem'
 
+    modal.style.backgroundColor = '#0e3103'
+        modalBigText.textContent = 'YOU W0N'
+        document.querySelector('.play-again').textContent = 'Play Again'
+
     openModal()
 
     if (score > highScore) {
